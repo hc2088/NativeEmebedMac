@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F916F322717D42C0099C04D /* embedder_example_1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6B72A27031B8D006FBB94 /* embedder_example_1.cc */; };
+		4F916F5527182F530099C04D /* libdartvm_for_embedding_nosnapshot_jit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC6B6DB27031AC0006FBB94 /* libdartvm_for_embedding_nosnapshot_jit.a */; };
+		4F916F5627182F560099C04D /* libdartvm_with_utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC6B6CC27031AC0006FBB94 /* libdartvm_with_utils.a */; };
+		4F916F5727182F5E0099C04D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC6B76E27034139006FBB94 /* libc++.tbd */; };
+		4FC6B6C527031A8E006FBB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6B6C427031A8E006FBB94 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FC6B6BF27031A8E006FBB94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F916F452717DBFF0099C04D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4F916F482717DC0E0099C04D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4FC6B6C127031A8E006FBB94 /* NativeEmebedMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NativeEmebedMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6B6C427031A8E006FBB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FC6B6CC27031AC0006FBB94 /* libdartvm_with_utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdartvm_with_utils.a; sourceTree = "<group>"; };
+		4FC6B6CD27031AC0006FBB94 /* hello.dill */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.dill; sourceTree = "<group>"; };
+		4FC6B6DB27031AC0006FBB94 /* libdartvm_for_embedding_nosnapshot_jit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdartvm_for_embedding_nosnapshot_jit.a; sourceTree = "<group>"; };
+		4FC6B72A27031B8D006FBB94 /* embedder_example_1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = embedder_example_1.cc; sourceTree = "<group>"; };
+		4FC6B75927034104006FBB94 /* floating_point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floating_point.h; sourceTree = "<group>"; };
+		4FC6B75B27034104006FBB94 /* dart_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_api.h; sourceTree = "<group>"; };
+		4FC6B75C27034104006FBB94 /* dart_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_version.h; sourceTree = "<group>"; };
+		4FC6B75E27034104006FBB94 /* dart_io_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_io_api.h; sourceTree = "<group>"; };
+		4FC6B75F27034104006FBB94 /* dart_embedder_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_embedder_api.h; sourceTree = "<group>"; };
+		4FC6B76027034104006FBB94 /* dart_native_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_native_api.h; sourceTree = "<group>"; };
+		4FC6B76227034104006FBB94 /* dart_api_dl_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_api_dl_impl.h; sourceTree = "<group>"; };
+		4FC6B76327034104006FBB94 /* dart_tools_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_tools_api.h; sourceTree = "<group>"; };
+		4FC6B76427034104006FBB94 /* dart_api_dl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_api_dl.h; sourceTree = "<group>"; };
+		4FC6B76527034104006FBB94 /* hashmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		4FC6B76627034104006FBB94 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		4FC6B76727034104006FBB94 /* memory_sanitizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memory_sanitizer.h; sourceTree = "<group>"; };
+		4FC6B76827034104006FBB94 /* dart_assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dart_assert.h; sourceTree = "<group>"; };
+		4FC6B76B2703412C006FBB94 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4FC6B76E27034139006FBB94 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC6B6BE27031A8E006FBB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F916F5727182F5E0099C04D /* libc++.tbd in Frameworks */,
+				4F916F5527182F530099C04D /* libdartvm_for_embedding_nosnapshot_jit.a in Frameworks */,
+				4F916F5627182F560099C04D /* libdartvm_with_utils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC6B6B827031A8E006FBB94 = {
+			isa = PBXGroup;
+			children = (
+				4FC6B6C327031A8E006FBB94 /* NativeEmebedMac */,
+				4FC6B6C227031A8E006FBB94 /* Products */,
+				4FC6B76A2703412C006FBB94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC6B6C227031A8E006FBB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B6C127031A8E006FBB94 /* NativeEmebedMac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC6B6C327031A8E006FBB94 /* NativeEmebedMac */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B75827034104006FBB94 /* dart-include */,
+				4FC6B6C427031A8E006FBB94 /* main.m */,
+				4FC6B72A27031B8D006FBB94 /* embedder_example_1.cc */,
+				4FC6B6CD27031AC0006FBB94 /* hello.dill */,
+				4FC6B6DB27031AC0006FBB94 /* libdartvm_for_embedding_nosnapshot_jit.a */,
+				4FC6B6CC27031AC0006FBB94 /* libdartvm_with_utils.a */,
+			);
+			path = NativeEmebedMac;
+			sourceTree = "<group>";
+		};
+		4FC6B75827034104006FBB94 /* dart-include */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B75927034104006FBB94 /* floating_point.h */,
+				4FC6B75A27034104006FBB94 /* include */,
+				4FC6B76527034104006FBB94 /* hashmap.h */,
+				4FC6B76627034104006FBB94 /* globals.h */,
+				4FC6B76727034104006FBB94 /* memory_sanitizer.h */,
+				4FC6B76827034104006FBB94 /* dart_assert.h */,
+			);
+			path = "dart-include";
+			sourceTree = "<group>";
+		};
+		4FC6B75A27034104006FBB94 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B75B27034104006FBB94 /* dart_api.h */,
+				4FC6B75C27034104006FBB94 /* dart_version.h */,
+				4FC6B75D27034104006FBB94 /* bin */,
+				4FC6B75F27034104006FBB94 /* dart_embedder_api.h */,
+				4FC6B76027034104006FBB94 /* dart_native_api.h */,
+				4FC6B76127034104006FBB94 /* internal */,
+				4FC6B76327034104006FBB94 /* dart_tools_api.h */,
+				4FC6B76427034104006FBB94 /* dart_api_dl.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4FC6B75D27034104006FBB94 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B75E27034104006FBB94 /* dart_io_api.h */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		4FC6B76127034104006FBB94 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6B76227034104006FBB94 /* dart_api_dl_impl.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		4FC6B76A2703412C006FBB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F916F482717DC0E0099C04D /* libresolv.tbd */,
+				4F916F452717DBFF0099C04D /* libz.tbd */,
+				4FC6B76E27034139006FBB94 /* libc++.tbd */,
+				4FC6B76B2703412C006FBB94 /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC6B6C027031A8E006FBB94 /* NativeEmebedMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6B6C827031A8E006FBB94 /* Build configuration list for PBXNativeTarget "NativeEmebedMac" */;
+			buildPhases = (
+				4FC6B6BD27031A8E006FBB94 /* Sources */,
+				4FC6B6BE27031A8E006FBB94 /* Frameworks */,
+				4FC6B6BF27031A8E006FBB94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeEmebedMac;
+			productName = NativeEmebedMac;
+			productReference = 4FC6B6C127031A8E006FBB94 /* NativeEmebedMac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC6B6B927031A8E006FBB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4FC6B6C027031A8E006FBB94 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4FC6B6BC27031A8E006FBB94 /* Build configuration list for PBXProject "NativeEmebedMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC6B6B827031A8E006FBB94;
+			productRefGroup = 4FC6B6C227031A8E006FBB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC6B6C027031A8E006FBB94 /* NativeEmebedMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC6B6BD27031A8E006FBB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F916F322717D42C0099C04D /* embedder_example_1.cc in Sources */,
+				4FC6B6C527031A8E006FBB94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FC6B6C627031A8E006FBB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FC6B6C727031A8E006FBB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FC6B6C927031A8E006FBB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6U63G5U52;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeEmebedMac",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FC6B6CA27031A8E006FBB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6U63G5U52;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeEmebedMac",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC6B6BC27031A8E006FBB94 /* Build configuration list for PBXProject "NativeEmebedMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6B6C627031A8E006FBB94 /* Debug */,
+				4FC6B6C727031A8E006FBB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6B6C827031A8E006FBB94 /* Build configuration list for PBXNativeTarget "NativeEmebedMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6B6C927031A8E006FBB94 /* Debug */,
+				4FC6B6CA27031A8E006FBB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC6B6B927031A8E006FBB94 /* Project object */;
+}
